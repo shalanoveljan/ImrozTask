@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 0 4rem;
+}
+
+header{
+    position: fixed;
+    padding: 20px 0;
+    width: 100%;
+}
+
+#Slider{
+    background-image: url(https://rainbowit.net/themes/imroz/wp-content/uploads/2021/09/bg-image-24.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img{
+    max-height: 66px;
+}
+
+.header-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav1{
+    margin-right: 25px;
+    color:#fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 29px 0;
+    opacity: 0.6;
+
+}
+
+.nav{
+    margin-right: 30px;
+    color:#fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 29px 0;
+}
+
+.right i{
+    color:#fff;
+    margin-right: 30px;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.button{
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding: 16px 40px;
+    border-radius: 500px;
+    font-weight: 500;
+    border: 2px solid #757677;
+    transition: 0.5s;
+    
+}
+
+.button:hover{
+    background-color: #fd4766;
+    border: 2px solid #fd4766;
+}
+
+.right i:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+   border-radius: 50%;
+}
+
+.content{
+    text-align: center;   
+}
+
+.h1{
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 112px;
+    color: #fd4766;
+
+}
+
+.btn{
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding: 16px 40px;
+    border-radius: 500px;
+    font-weight: 500;
+    border: 2px solid #757677;
+    transition: 0.5s;
+    
+    
+    
+}
+
+.btn:hover{
+    background-color: #fd4766;
+    border: 2px solid #fd4766;
+}
+
+.content p{
+    color: #fff;
+    font-size: 20px;
+    width: 80%;
+    opacity: 0.7;
+    margin: 0 auto 50px;
+}
+
